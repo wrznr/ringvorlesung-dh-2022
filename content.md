@@ -10,7 +10,7 @@ layout: true
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat 2.5</td>
+      <td style="text-align:right">Referat Open Science</td>
       <td />
     </tr>
   </table>
@@ -22,13 +22,13 @@ layout: true
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat 2.5</td>
+      <td style="text-align:left">Referat Open Science</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>Date</b></td>
+      <td style="font-size:8pt"><b>1. November 2022</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Event</td>
+      <td style="font-size:8pt">Ringvorlesung <i>Digital Humanities</i></td>
     </tr>
   </table>
 </div>
@@ -38,30 +38,47 @@ layout: true
 class: title-slide
 count: false
 
-# Title
-## Subtitle
+# Vom Textobjekt über digitale Volltexte zu Forschungsdaten
+## Digitalisierung, Annotation und Analyse
 
 ---
 
-# Overview
+# Überblick
 
-- Section 1
-  + Subsection 1
-- Section 2
+- vom Textobjekt zum maschinenlesbaren Volltext
+    + Optical Character Recognition
+    + Repräsentationen digitaler Texte
+- vom maschinenlesbaren Volltext zum Forschungsdatum in der quantitativen Korpuslinguistik
+    + automatische Annotation
+    + quantitative Textanalyse
 
 ---
 
 class: part-slide
 count: false
 
-# Topic 1
+# Etappe 1: vom Textobjekt zum maschinenlesbaren Volltext
+
+---
+
+class: part-slide
+count: false
+
+# Etappe 2: vom maschinenlesbaren Volltext zum Forschungsdatum in der quantitativen Korpuslinguistik
+
+---
+
+class: part-slide
+count: false
+
+# Schlüsselbegriffe und Empfehlungen
 
 ---
 
 class: part-slide
 
-# Many thanks for your attention!
+# Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
+<a href="https://wrznr.github.io/ringvorlesung-dh-2022/">wrznr.github.io/ringvorlesung-dh-2022</a>
 </center>
