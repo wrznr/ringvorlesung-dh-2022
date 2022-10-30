@@ -468,9 +468,9 @@ count: false
 
 ---
 
-# Exkurs: Sequenzklassifikation
-
 count: false
+
+# Exkurs: Sequenzklassifikation
 
 - Illustration am Beispiel Worttrennung
     + Daten
@@ -489,9 +489,9 @@ count: false
 
 ---
 
-# Exkurs: Sequenzklassifikation
-
 count: false
+
+# Exkurs: Sequenzklassifikation
 
 - Illustration am Beispiel Worttrennung
     + Daten
