@@ -367,6 +367,23 @@ count: false
 <center><img src="img/char.svg" width="300px" /></center>
 ]
 ]
+
+---
+
+count: false
+
+# Texterkennung: Zeichenorientierte Ansätze
+
+.cols[
+.seventy[
+- Erkennung erfolgt *glyphenweise*
+  - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+]
+.fourty[
+<center><img src="img/char.svg" width="300px" /></center>
+]
+]
 - *regelbasiertes Vorgehen*
     + **direkte** Abbildung von Referenzmaterial
     + Modellierung von Expertenwissen
