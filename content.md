@@ -782,7 +782,35 @@ count: false
     + für höhere **qualitative Aussagekraft**
 - Hilfsmittel für **sauber(er)e Analysen**
 
-.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:400px"/>]
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:300px"/>]
+
+---
+
+# Distributionelle Semantik
+
+- Semantik: Theorie von der sprachlichen Bedeutung
+    + **lexikalische** Semantik: Wortbedeutungen
+    + **kompositionelle** Semantik: Phrasen- und Satzbedeutung
+    * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
+- mit automatischen Verfahren erfassbar
+- distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
+> You shall know a word by the company it keeps. [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
+    + `Er versenkte den .... im Tor.`
+
+---
+
+count: false
+
+# Distributionelle Semantik
+
+- Semantik: Theorie von der sprachlichen Bedeutung
+    + **lexikalische** Semantik: Wortbedeutungen
+    + **kompositionelle** Semantik: Phrasen- und Satzbedeutung
+    * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
+- mit automatischen Verfahren erfassbar
+- distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
+> You shall know a word by the company it keeps. [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
+    + `Er versenkte den Ball im Tor.`
 
 ---
 
