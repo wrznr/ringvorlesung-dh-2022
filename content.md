@@ -164,6 +164,30 @@ count: false
 
 ---
 
+count: false
+
+# Belege als Forschungsgrundlage
+
+.cols[
+.fourty[
+- empirische Forschung → Belege
+- Textdokumente als prominente Belegquelle
+    + Linguistik
+    + Geschichte
+    + Recht
+    + Philosophie
+    + ...
+- zentrale Grundlage der **digitalen Geisteswissenschaften**
+]
+.sixty[
+<p style="margin-top:-20px">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="500px" />
+</p>
+]
+]
+
+---
+
 # Textdokumente als Belegquelle
 
 - Vorteile
@@ -171,9 +195,11 @@ count: false
     + systematisch gesammelt
     + einfach reproduzierbar
     + leicht zu lesen
-    + leicht zu digitalisieren
+    + **relativ einfach digitalisierbar**
 - *Korpora*: repräsentative Erfassung einer Sprache, eines Sprachstandes, eines speziellen Ausschnitts einer Sprache
-    + Referenzkorpora: British National Corpus, Deutsches Textarchiv
+    + Referenzkorpora
+        * British National Corpus [(Leech 1992)](https://hdl.handle.net/10371/85926)
+            * Deutsches Textarchiv [(ToDo)](https://www.deutschestextarchiv.de/doku/publikationen)
     + Spezialkorpora
         * *childLex* [(Schroeder et al. 2014)](https://link.springer.com/article/10.3758/s13428-014-0528-1)
         * Internetblogs [(Barbaresi und Würzner 2015)](https://edoc.bbaw.de/opus4-bbaw/frontdoor/index/index/docId/2330)
@@ -183,7 +209,7 @@ count: false
 
 # Dokumenttypen
 
-- **Problem**: Digitalisierung ↛ Texterfassung
+- **Problem**: Digitalisierung ⇏ Texterfassung
 
 ---
 
@@ -326,6 +352,93 @@ count: false
 </p>
 ]
 ]
+
+---
+
+# Texterkennung: Zeichenorientierte Ansätze
+
+.cols[
+.seventy[
+- Erkennung erfolgt *glyphenweise*
+  - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
+  - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
+- *regelbasiertes Vorgehen*
+    + **direkte** Abbildung von Referenzmaterial
+    + Modellierung von Expertenwissen
+- Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
+- wenig *robustes* Verfahren
+]
+.fourty[
+<center><img src="img/char.svg" width="300px" /></center>
+]
+]
+
+---
+
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Erkennung erfolgt *zeilenweise*
+  1. **Skalierung:** einheitliche Höhe für alle Zeilen
+  2. **Merkmalsextraktion**: Raster mit festgelegter Anzahl (horizontaler) Zeilen und variabler Anzahl (vertikaler) Spalten → Zeilen als Sequenzen binärwertiger Vektoren fixer Länge
+<center><img src="img/grid.svg" width="800px"/></center>
+- kontextsensitive Erkennung über *Übergangswahrscheinlichkeiten* der Vektoren
+- Zerlegung der Seite in *Zeilen* notwendig
+- Vorgehen robuster gegenüber Varianz durch Artefakte als zeichenorientierte Ansätze
+- `Tesseract` (ab Version 4), `OCRopus`, `kraken`, `Calamari`
+  + Einsatz *neuronaler Netze* für die Sequenzklassifikation
+
+---
+
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Sequenzierung per Vektorisierung
+    + **Skalierung** auf einheitliche Höhe
+    + **Unterteilung** in 1pixel-breite Streifen
+
+<center>
+<img src="img/nbg_lines.png" width="400px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<img src="img/nbg_grid.png" width="400px" />
+</center>
+
+---
+
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Tabelle mit fester Anzahl Zeilen und variabler Anzahl Spalten
+- schwarze (1) und weiße (0) Pixel
+    + **endliche Anzahl** mgl. Belegungen
+- charakteristische Abfolge pro Zeichen (und Wort)
+
+<center>
+<img src="img/detail_mask.png" width="190px" />
+</center>
+<center>
+<p>↓</p>
+</center>
+<center>
+<img src="img/pixel_cols.png" width="190px" />
+</center>
+
+---
+
+# Exkurs: Sequenzklassifikation
+
+- zentrales Verfahren der statistischen Inferenz
+    + **Konstrastiere** mit *deskriptiver Statistik*
+- basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)P(C)\}{P(E)}\)`
+- Rezept
+    + Man nehme
+        * eine **sehr große** Liste **manuell annotierter** Daten und
+        * einen **Trainingsalgorithmus**,
+    + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
+        * jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+    + induziere ein **statistisches Modell**,
+    + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
 
 ---
 
