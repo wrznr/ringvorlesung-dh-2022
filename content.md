@@ -680,7 +680,9 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 ---
 
-- Illustration
+# Exkurs: regelbasierte Modellierung
+
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
@@ -691,9 +693,9 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 count: false
 
-# Morphologische Analyse
+# Exkurs: regelbasierte Modellierung
 
-- Illustration
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
@@ -704,9 +706,9 @@ count: false
 
 count: false
 
-# Morphologische Analyse
+# Exkurs: regelbasierte Modellierung
 
-- Illustration
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
@@ -717,9 +719,9 @@ count: false
 
 count: false
 
-# Morphologische Analyse
+# Exkurs: regelbasierte Modellierung
 
-- Illustration
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
@@ -730,9 +732,9 @@ count: false
 
 count: false
 
-# Morphologische Analyse
+# Exkurs: regelbasierte Modellierung
 
-- Illustration
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
@@ -743,9 +745,9 @@ count: false
 
 count: false
 
-# Morphologische Analyse
+# Exkurs: regelbasierte Modellierung
 
-- Illustration
+- Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
     + Nachsilben `{heit<N>,lich<A>}`
