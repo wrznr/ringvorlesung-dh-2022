@@ -446,7 +446,7 @@ count: false
 
 - zentrales Verfahren der statistischen Inferenz
     + **Konstrastiere** mit *deskriptiver Statistik*
-- basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)P(C)}{P(E)}\)`
+- basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
 - Rezept
     + Man nehme
         * eine **sehr große** Liste **manuell annotierter** Daten und
