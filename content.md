@@ -199,7 +199,7 @@ count: false
 - *Korpora*: repräsentative Erfassung einer Sprache, eines Sprachstandes, eines speziellen Ausschnitts einer Sprache
     + Referenzkorpora
         * British National Corpus [(Leech 1992)](https://hdl.handle.net/10371/85926)
-            * Deutsches Textarchiv [(ToDo)](https://www.deutschestextarchiv.de/doku/publikationen)
+            * Deutsches Textarchiv [(Geyken et al. 2011)](http://www.hbz-nrw.de/dokumentencenter/veroeffentlichungen/Tagung_Digitale_Wissenschaft.pdf#page=159)
     + Spezialkorpora
         * *childLex* [(Schroeder et al. 2014)](https://link.springer.com/article/10.3758/s13428-014-0528-1)
         * Internetblogs [(Barbaresi und Würzner 2015)](https://edoc.bbaw.de/opus4-bbaw/frontdoor/index/index/docId/2330)
@@ -604,7 +604,9 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 # Linguistische Annotation im Alltag
 
-.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/websiete.png" style="width:800px"/>]
+<center>
+<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/websiete.png" style="width:800px"/>
+</center>
 
 ---
 
