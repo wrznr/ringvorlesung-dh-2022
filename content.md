@@ -756,6 +756,36 @@ count: false
 
 ---
 
+# Exkurs: regelbasierte Modellierung
+
+- Herausforderungen
+    + Übergenerierung (z.B. *Geistgeist*)
+    + Regressionen (z.B. *Bonbon*)
+    + Komplexität, z.B. TAGH [(Geyken und Hanneforth 2005)](https://www.dwds.de/dwds_static/publications/text/Geyken_Hanneforth_fsmnlp.pdf)
+        * 1&#x202f;864&#x202f;991 Lexikoneinträge
+        * 7&#x202f;678 Vorsilben
+        * 1&#x202f;073 Nachsilben
+        * 2&#x202f;679&#x202f;741 Zustände
+    + Aufwand in Erstellung und Pflege
+- implizites vs. explizites Wissen
+
+---
+
+# Linguistische Annotation
+
+- Verdichtung, e.g.
+    + Flexion
+    + Schreibungsvariation
+    + für höhere **quantitative Aussagekraft**
+- Diskriminierung
+    + Ambiguitäten, z.B. bzgl. Wortart
+    + für höhere **qualitative Aussagekraft**
+- Hilfsmittel für **sauber(er)e Analysen**
+
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:400px"/>]
+
+---
+
 class: part-slide
 count: false
 
