@@ -559,11 +559,52 @@ count: false
 
 
 - systematische Auswertung von Textkorpora
-- *Close* reading: eigentlich grundlegende Methode der Literaturwissenschaft
+- **Close reading**: eigentlich grundlegende Methode der Literaturwissenschaft
 - seit Franco Morretti (2005) *Graphs, Maps, Trees*: Gegenüberstellung (manueller) *Einzelbelegauswertung* und
 der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 > ... a little pact with the devil: we know how to read texts, now let’s learn how not to read them.
 - Erkenntnisgewinn durch **quantitative Textanalyse** ein großes Versprechen der *Digital Humanities*
+
+---
+
+# Vom Beleg zu dessen Beforschung
+
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/flugzeug_vs_eisenbahn.svg" style="width:800px"/>]
+
+---
+
+# Vom Beleg zu dessen Beforschung
+
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl1.svg" style="width:800px"/>]
+
+---
+
+# Vom Beleg zu dessen Beforschung
+
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl2.svg" style="width:800px"/>]
+
+---
+
+# Linguistische Annotation
+
+- Aufgabe:
+    + Auszeichnung bestimmter linguistischer Eigenschaften
+    + Strukturierung und Anreicherung der Rohtexte
+        * bessere Durchsuchbarkeit
+        * einfachere Belegidentifikation
+        * moderne Korpuspräsentationsformen
+        * **quantitative Auswertungen**
+- Teilschritte:
+    + Zerlegung des Fließtextes in Wörter und Sätze: **Tokenisierung**
+    + Bestimmung der Grundform der Wörter: **Lemmatisierung**
+    + Bestimmung der tatsächlichen Wortart eines Wortes: **PoS-Tagging**
+    + (Normalisierung von Schreibungsvarianten: **Kanonisierung**)
+
+---
+
+# Linguistische Annotation im Alltag
+
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/websiete.png" style="width:800px"/>]
 
 ---
 
