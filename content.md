@@ -595,6 +595,15 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
         * moderne Korpuspräsentationsformen
         * **quantitative Auswertungen**
 
+
+| Beispiel | | | | | |
+|------|----------|--------|-------|-------------|-------------------|
+| Rohtext | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
+| Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
+| Lemma | *Arzt* | *sein* | *die* | *Herrgott* | *Menschenflicker* | 
+| Tag | `NN` | `VAFIN` | `ART` | `NN` | `NN` |
+| Grammatik | `Subjekt` | `Prädikat` | `Objekt` | `Objekt` | `Objekt` |
+
 ---
 
 # Linguistische Annotation im Alltag
@@ -607,16 +616,6 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 # Linguistische Annotation
 
-| Beispiel | | | | | |
-|------|----------|--------|-------|-------------|-------------------|
-| Rohtext | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
-| Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
-| Lemma | *Arzt* | *sein* | *die* | *Herrgott* | *Menschenflicker* | 
-| Tag | `NN` | `VAFIN` | `ART` | `NN` | `NN` |
-| Grammatik | `Subjekt` | `Prädikat` | `Objekt` | `Objekt` | `Objekt` |
-
----
-
 - Analysekette:
     + Zerlegung des Fließtextes in Wörter und Sätze: **Tokenisierung**
     + Bestimmung mgl. Grundformen der Wörter: **Lemmatisierung**
@@ -626,8 +625,8 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
     + Auszählen gemeinsamer Vorkommen von Wörtern bzw. Wortgruppen: **distributionelle Semantik**
 - vollautomatisch möglich (mit akzeptabler Qualität)
 - zwei grundsätzliche Ansätze der Modellierung:
-    + auf Basis von Expertenwissen **manuell** erstellte Regeln
     + auf Basis manuell erstellter Beispiele **automatisch** induzierte Regeln
+    + auf Basis von Expertenwissen **manuell** erstellte Regeln
 
 ---
 
@@ -637,7 +636,121 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
     + Hauch der Unwissenschaftlichkeit statistischer Verfahren
     + besonders in der Sprachwissenschaft:
     > It's true there's been a lot of work on trying to apply statistical models to various linguistic problems. I think there have been some successes, but a lot of failures. There is a notion of success ... which I think is novel in the history of science. It interprets success as approximating unanalyzed data. ([Chomsky 2011](https://www.youtube.com/watch?v=jgbCXBJTpjs))
-- Ziel weniger hochperformante Systeme als Verständnis über kognitive Prozesse und die Entwicklung eines über Module hinweg interagierenden Gesamtkonstrukts menschlicher Sprachverarbeitung
+- Ziel Verständnis über kognitive Prozesse und die Entwicklung eines über Module hinweg interagierenden Gesamtkonstrukts menschlicher Sprachverarbeitung
+
+---
+
+# Exkurs: regelbasierte Modellierung
+
+- Beispiel *morphologische Analyse*
+    + Bestimmung der **möglichen** Wortarten eines Wortes
+      ```
+      grünen ↦ {Verb, Adjektiv}
+      Müller ↦ {Substantiv, Eigenname}
+      ```
+    + Abbildung auf eine kanonische **Grundform** (*Lemma*)
+      ```
+      grünen  ↦ grün
+      Müllers ↦ Müller
+      ```
+    + Identifikation der beteiligten Wortbildungsprozesse
+      ```
+      Grünspan ↦ grün<A>#Span<N>
+      verirren ↦ ver<p>+irren<V>
+      ```
+- Verfahren des maschinellen Lernens (bisher) nicht geeignet (cf. e.g. [McCarthy et al. 2019](https://aclanthology.org/W19-4226v3.pdf))
+
+---
+
+# Exkurs: regelbasierte Modellierung
+
+- herausfordernd für Sprachen mit komplexer Wortbildung (Kompetenz!)
+    + (mentales) Lexikon unendlicher Größe
+        * Dampfschifffahrtsgesellschaftskapitän
+        * Dampfschifffahrtsgesellschaftskapitänsmütze
+    + Belege? **Oftmals Fehlanzeige**
+- simple, beschreibende Regel: `NN → NN NN`
+- implementiert als `Finite State Morphology` [(Beesley und Karttunen 2003)](https://web.stanford.edu/~laurik/fsmbook/home.html)
+    + man nehme
+        * eine **große** Liste einfacher Wörter
+        * deren **morphosyntaktische** Eigenschaften
+        * Vor- und Nachsilben,
+    + packe dies in einen **endlichen Automaten** und
+    + bilde dessen **Kleenesche Hülle**
+
+---
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex.svg"/></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex2.svg"/></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex3.svg" width="650" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex4.svg" width="880" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex6.svg" width="880" /></center>
+
+---
+
+count: false
+
+# Morphologische Analyse
+
+- Illustration
+    + Lexikon `{schön<A>,Geist<N>}`
+    + Vorsilben `{un<p>,ur<p>}`
+    + Nachsilben `{heit<N>,lich<A>}`
+
+<center><img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/morph_ex5.svg" width="880" /></center>
 
 ---
 
