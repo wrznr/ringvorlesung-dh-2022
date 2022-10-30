@@ -458,6 +458,29 @@ count: false
 
 ---
 
+# Exkurs: Sequenzklassifikation
+
+- Illustration am Beispiel Worttrennung
+    + Daten
+        * http://de.wiktionary.org
+        * Worttrennungsangaben für > 250 000 deutsche Wörter
+        * `Elektrik ↦ Elek·t·rik`
+    + Kodierung `\(f: \Sigma\rightarrow\mathbb{B}\)` 
+      $$
+      f(x) = \begin{cases} 1 & x\,\text{gefolgt von Trennstelle} \\\\
+      0 & \, \text{sonst}\end{cases}
+      $$ 
+      ```
+      E l e k t r i k
+      0 0 0 1 1 0 0 0
+      ```
+    + Training
+        * Zählen von Sequenzen aus Eingabe-Ausgabe-Paaren unter der Markov-Annahme
+        * Berechnung einer Wahrscheinlichkeitsverteilung
+        * Repräsentation als statistisches Modell (HMM, CRF, neuronales Netz)
+
+---
+
 class: part-slide
 count: false
 
