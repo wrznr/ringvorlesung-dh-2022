@@ -444,8 +444,8 @@ count: false
 
 # Exkurs: Sequenzklassifikation
 
-- zentrales Verfahren der statistischen Inferenz (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
-    + **Konstrastiere** mit *deskriptiver Statistik*
+- zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
+    + **Konstrastiere** *statistische Inferenz* mit *deskriptiver Statistik*
 - basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
 - Rezept
     + Man nehme
@@ -581,7 +581,7 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 # Vom Beleg zu dessen Beforschung
 
-.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl2.svg" style="width:800px"/>]
+.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:800px"/>]
 
 ---
 
@@ -594,11 +594,6 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
         * einfachere Belegidentifikation
         * moderne Korpuspräsentationsformen
         * **quantitative Auswertungen**
-- Teilschritte:
-    + Zerlegung des Fließtextes in Wörter und Sätze: **Tokenisierung**
-    + Bestimmung der Grundform der Wörter: **Lemmatisierung**
-    + Bestimmung der tatsächlichen Wortart eines Wortes: **PoS-Tagging**
-    + (Normalisierung von Schreibungsvarianten: **Kanonisierung**)
 
 ---
 
@@ -607,6 +602,42 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 <center>
 <img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/websiete.png" style="width:800px"/>
 </center>
+
+---
+
+# Linguistische Annotation
+
+| Beispiel | | | | | |
+|------|----------|--------|-------|-------------|-------------------|
+| Rohtext | *Aerzte* | *ſind* | *des* | *HERRgotts* | *Menſchenflikker* |
+| Normalisiert | *Ärzte* | *sind* | *des* | *Herrgotts* | *Menschenflicker* |
+| Lemma | *Arzt* | *sein* | *die* | *Herrgott* | *Menschenflicker* | 
+| Tag | `NN` | `VAFIN` | `ART` | `NN` | `NN` |
+| Grammatik | `Subjekt` | `Prädikat` | `Objekt` | `Objekt` | `Objekt` |
+
+---
+
+- Analysekette:
+    + Zerlegung des Fließtextes in Wörter und Sätze: **Tokenisierung**
+    + Bestimmung mgl. Grundformen der Wörter: **Lemmatisierung**
+    + (Normalisierung von Schreibungsvarianten: **Kanonisierung**)
+    + Bestimmung der tatsächlichen Wortart eines Wortes: **PoS-Tagging**
+    + Klassifizierung der Beziehungen der Wörter untereinander: **Dependenzparsing**
+    + Auszählen gemeinsamer Vorkommen von Wörtern bzw. Wortgruppen: **distributionelle Semantik**
+- vollautomatisch möglich (mit akzeptabler Qualität)
+- zwei grundsätzliche Ansätze der Modellierung:
+    + auf Basis von Expertenwissen **manuell** erstellte Regeln
+    + auf Basis manuell erstellter Beispiele **automatisch** induzierte Regeln
+
+---
+
+# Exkurs: regelbasierte Modellierung
+
+- grundsätzliches Vorgehen der sog. *künstlichen Intelligenz* bis zum Informationszeitalter
+    + Hauch der Unwissenschaftlichkeit statistischer Verfahren
+    + besonders in der Sprachwissenschaft:
+    > It's true there's been a lot of work on trying to apply statistical models to various linguistic problems. I think there have been some successes, but a lot of failures. There is a notion of success ... which I think is novel in the history of science. It interprets success as approximating unanalyzed data. ([Chomsky 2011](https://www.youtube.com/watch?v=jgbCXBJTpjs))
+- Ziel weniger hochperformante Systeme als Verständnis über kognitive Prozesse und die Entwicklung eines über Module hinweg interagierenden Gesamtkonstrukts menschlicher Sprachverarbeitung
 
 ---
 
