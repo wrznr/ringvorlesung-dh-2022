@@ -444,7 +444,7 @@ count: false
 
 # Exkurs: Sequenzklassifikation
 
-- zentrales Verfahren der statistischen Inferenz
+- zentrales Verfahren der statistischen Inferenz (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
     + **Konstrastiere** mit *deskriptiver Statistik*
 - basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
 - Rezept
@@ -533,10 +533,37 @@ count: false
 
 ---
 
+# Texterkennung: Zeilenorientierte Ansätze
+
+- Übertragung auf OCR
+    + Daten
+        * https://htr-united.github.io/
+        * manuell transkribierte Textzeilen
+    + Kodierung
+        * ToDo
+    + Training
+        * Zählen von Sequenzen aus Vektor-Buchstaben-Paaren
+        * Repräsentation als OCR-Modell
+        * Tesseract: [tesstrain](https://github.com/tesseract-ocr/tesstrain)
+
+---
+
 class: part-slide
 count: false
 
 # Etappe 2: vom maschinenlesbaren Volltext zum Forschungsdatum in der quantitativen Korpuslinguistik
+
+---
+
+# Vom Beleg zu dessen Beforschung
+
+
+- systematische Auswertung von Textkorpora
+- *Close* reading: eigentlich grundlegende Methode der Literaturwissenschaft
+- seit Franco Morretti (2005) *Graphs, Maps, Trees*: Gegenüberstellung (manueller) *Einzelbelegauswertung* und
+der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
+> ... a little pact with the devil: we know how to read texts, now let’s learn how not to read them.
+- Erkenntnisgewinn durch **quantitative Textanalyse** ein großes Versprechen der *Digital Humanities*
 
 ---
 
