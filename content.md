@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>Date</td>
+      <td>1. November 2022</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -465,6 +465,39 @@ count: false
         * http://de.wiktionary.org
         * Worttrennungsangaben für > 250 000 deutsche Wörter
         * `Elektrik ↦ Elek·t·rik`
+
+---
+
+# Exkurs: Sequenzklassifikation
+
+count: false
+
+- Illustration am Beispiel Worttrennung
+    + Daten
+        * http://de.wiktionary.org
+        * Worttrennungsangaben für > 250 000 deutsche Wörter
+        * `Elektrik ↦ Elek·t·rik`
+    + Kodierung `\(f: \Sigma\rightarrow\mathbb{B}\)` 
+      $$
+      f(x) = \begin{cases} 1 & x\,\text{gefolgt von Trennstelle} \\\\
+      0 & \, \text{sonst}\end{cases}
+      $$ 
+      ```
+      E l e k t r i k
+      0 0 0 1 1 0 0 0
+      ```
+
+---
+
+# Exkurs: Sequenzklassifikation
+
+count: false
+
+- Illustration am Beispiel Worttrennung
+    + Daten
+        * http://de.wiktionary.org
+        * Worttrennungsangaben für > 250 000 deutsche Wörter
+        * `Elektrik ↦ Elek·t·rik`
     + Kodierung `\(f: \Sigma\rightarrow\mathbb{B}\)` 
       $$
       f(x) = \begin{cases} 1 & x\,\text{gefolgt von Trennstelle} \\\\
@@ -475,9 +508,28 @@ count: false
       0 0 0 1 1 0 0 0
       ```
     + Training
-        * Zählen von Sequenzen aus Eingabe-Ausgabe-Paaren unter der Markov-Annahme
-        * Berechnung einer Wahrscheinlichkeitsverteilung
-        * Repräsentation als statistisches Modell (HMM, CRF, neuronales Netz)
+        * Zählen von Sequenzen aus Eingabe-Ausgabe-Paaren
+        * Berechnung bzw. Schätzung einer Wahrscheinlichkeitsverteilung
+        * Repräsentation als statistisches Modell (**H**idden **M**arkov **M**odel, **C**onditional **R**andom **F**ield, **N**euronales **N**etz)
+
+---
+
+# Exkurs: Sequenzklassifikation
+
+- einfacher aber wirkungsvoller Algorithmus für Anwendungen in
+    + Sprachverarbeitung, e.g.
+        * Tokenisierung (Zeichen → Wortgrenzen)
+        * Wortartenerkennung (Wörter → Wortarten)
+        * Textklassifikation (Texte → Textsorten, `n:1`-Problem)
+    + Bioinformatik, e.g.
+        * Proteinklassfizierung in DNA-Sequenzen (Nukleinbasen → Aminosäuren)
+    + Bildverarbeitung, e.g.
+        * Layouterkennung (Pixel → Layoutelemente)
+        * **Texterkennung** (Pixelvektoren → Buchstaben)
+- unzählige gute (Python-)Tutorials vefügbar, e.g.
+    + [Wortartenerkennung mit CRFs](https://albertauyeung.github.io/2017/06/17/python-sequence-labelling-with-crf.html/)
+    + [DNA-Sequenzierung mit HMMs](https://github.com/jmschrei/pomegranate/blob/master/tutorials/B_Model_Tutorial_3_Hidden_Markov_Models.ipynb)
+    + [Stimmungsbewertung in Filmkritiken mit NNs](https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/)
 
 ---
 
