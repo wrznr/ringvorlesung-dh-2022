@@ -362,16 +362,15 @@ count: false
 - Erkennung erfolgt *glyphenweise*
   - **Mustervergleich**: Vergleich der Zeichenbilder zu in einem „Setzkasten“ gespeicherten Glyphen **Pixel für Pixel**
   - **Merkmalsvergleich**: Zerlegung der Glyphen in vordefinierte, bedeutungstragende **Eigenschaften** wie *Einfärbung*, *Kurven*, *Linien* etc. und Vergleich zu Referenzmaterialien
-- *regelbasiertes Vorgehen*
-    + **direkte** Abbildung von Referenzmaterial
-    + Modellierung von Expertenwissen
-- Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
-- wenig *robustes* Verfahren
 ]
 .fourty[
 <center><img src="img/char.svg" width="300px" /></center>
 ]
 ]
+- *regelbasiertes Vorgehen*
+    + **direkte** Abbildung von Referenzmaterial
+    + Modellierung von Expertenwissen
+- Zerlegung der Seite in *Zeilen* und *Zeichen* notwendig
 
 ---
 
