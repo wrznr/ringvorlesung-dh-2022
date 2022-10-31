@@ -886,6 +886,23 @@ count: false
 
 ---
 
+# Textbelege als Forschungsdaten
+
+Vorgehenweise
+
+- *explorativ*
+  + Wordstatistiken und Verlaufskurven
+  + signifikante Veränderungen im Inhaltswortbereich
+  + Hinweise auf Bedeutungsverschiebung bzw. Bezeichnungswandel
+
+- *hypothesengeleitet*
+  + spezifische Korpusrecherchen zur effizienten Belegauswahl
+  + Belegauswertung
+  + quantitatives „Untermauern“
+
+
+---
+
 class: part-slide
 count: false
 
