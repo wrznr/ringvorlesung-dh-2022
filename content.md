@@ -794,7 +794,8 @@ count: false
     * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
 - mit automatischen Verfahren erfassbar
 - distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
-> You shall know a word by the company it keeps. [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
+> You shall know a word by the company it keeps.
+> [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
     + `Er versenkte den .... im Tor.`
 
 ---
@@ -809,8 +810,56 @@ count: false
     * **ontologische** Beziehungen: Synonyme, Hyponyme, Hyperonyme
 - mit automatischen Verfahren erfassbar
 - distributionelle Ähnlichkeit: gleiche Kontexte ⇒ ähnliche Bedeutung
-> You shall know a word by the company it keeps. [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
+> You shall know a word by the company it keeps.
+> [(Firth 1957)](https://cs.brown.edu/courses/csci2952d/readings/lecture1-firth.pdf)
     + `Er versenkte den Ball im Tor.`
+
+---
+
+# Distributionelle Semantik
+
+- Vorgehen:
+    + Man definiere einen **Kontext** (z.&#x202f;B. Satz) und **interessante** Wörter,
+    + werfe für jedes Zielwort alle interessanten Wörter (z.&#x202f;B. *Nomen* und *Verben*) aus dem Kontext in einen Topf (*Bag of Words*),
+    + repräsentiere den Topf als **hochdimensionalen Vektorraum** und
+    + vergleiche die Vektoren miteinander.
+- Illustration:
+    + `Der Säufer randalierte in der Kneipe. Die Polizei sperrte den Säufer ein, weil er randalierte.`
+.right[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/distr.svg" style="width:180px"/>]
+
+---
+
+# Distributionelle Semantik
+
+- **Kollokation**: häufiges gemeinsames Auftreten zweier Wörter in vordefiniertem Kontext 
+    + enge semantische Beziehungen (*Schüler* → *Lehrer*) 
+    + Sachverhalte (*Schule* → *Reform*) 
+    + feste Phrasen (*Hänschen* → *Hans*)
+- **Annäherungen an die Verwendung eines Begriffes:**
+    + Ermittlung aller Kollokationen eines Eingabebegriffes
+    + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
+    + Beispiel [*Begriff*](https://kaskade.dwds.de/dstar/dta/diacollo/?query=Begriff&_s=submit&date=&slice=0&score=ld&kbest=10&cutoff=&profile=2&format=html&global=1&groupby=&eps=0) im DTA
+
+---
+
+# Distributionelle Semantik
+
+<center>
+<img src="https://famfonts.com/wp-content/uploads/jeopardy-wide.png">
+**↓**
+<img src="img/profilardy.png">
+
+[**Klick mich!**](https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA)
+</center>
+
+---
+
+# Distributionelle Semantik
+
+- **Annäherung an Bedeutungswandel eines Begriffes**:
+    + Ermittlung aller Kollokationen eines Eingabebegriffes **in definierten Zeitintervallen**
+    + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
+    + `Verlaufskurven + Kollokationen = DiaCollo` [(Jurish 2015)](https://www.deutschestextarchiv.de/files/jurish2015diacollo-clarin.pdf)  
 
 ---
 
