@@ -877,6 +877,8 @@ count: false
 # Distributionelle Semantik
 .cols[
 .fifty[
+<img src="img/beverages.png" /><p/>
+<a href="https://www.deutschestextarchiv.de/files/jw2017diacollo.pdf">(Jurish und Werneke 2017)</a>
 ]
 .fifty[
 - **Annäherung an Bedeutungswandel eines Begriffes**:
