@@ -888,7 +888,7 @@ count: false
 
 # Textbelege als Forschungsdaten
 
-Vorgehenweise
+Vorgehensweise
 
 - *explorativ*
   + Wordstatistiken und Verlaufskurven
