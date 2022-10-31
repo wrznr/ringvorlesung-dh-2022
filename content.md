@@ -325,6 +325,93 @@ count: false
 .fifty[
 - Bildvorverarbeitung
 - Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
+]
+.fourty[
+<p style="margin-top:-80px">
+<img src="img/grenzboten_struct.svg" />
+</p>
+]
+]
+
+---
+
+count: false
+
+# Komponenten eines einfachen OCR-Workflows
+
+.cols[
+.fifty[
+- Bildvorverarbeitung
+- Layoutanalyse
+    * **strukturierende** Elemente
+        + Absätze
+        + Überschriften
+    * **textflussunterbrechende** Elemente
+        + Seitenzahlen
+        + Kolumnentitel
+        + Abbildungsunterschriften
+        + Marginalien etc.
+    * **nichttextuelle** Elemente
+        + Abbildungen
+        + Tabellen etc.
 - Texterkennung
 ]
 .fourty[
@@ -878,7 +965,7 @@ count: false
 .cols[
 .fifty[
 <img src="img/beverages.png" /><p/>
-<a href="https://www.deutschestextarchiv.de/files/jw2017diacollo.pdf">(Jurish und Werneke 2017)</a>
+<a href="https://www.deutschestextarchiv.de/files/jw2017diacollo.pdf" style="font-size:1.1rem">(Jurish und Werneke 2017)</a>
 ]
 .fifty[
 - **Annäherung an Bedeutungswandel eines Begriffes**:
@@ -902,13 +989,37 @@ Vorgehensweise
   + Belegauswertung
   + quantitatives „Untermauern“
 
+---
+
+# Textbelege als Forschungsdaten
+
 
 ---
 
 class: part-slide
 count: false
 
-# Schlüsselbegriffe und Empfehlungen
+# Schlüsselbegriffe und zwei Empfehlungen
+
+---
+
+# Schlüsselbegriffe
+
+- Texterfassung
+- Sequenzklassifikation
+- maschinenlesbarer Volltext
+- linguistische Annotation
+- regelbasierte Modellierung
+- distributionelle Semantik
+- *close, distant und blended reading*
+
+---
+
+# Empfehlung 1: Ausprobieren!
+
+---
+
+# Empfehlung 2: Kommen Sie ins Gespräch!
 
 ---
 
