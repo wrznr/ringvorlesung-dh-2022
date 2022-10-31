@@ -862,10 +862,20 @@ count: false
 
 # Distributionelle Semantik
 
+.cols[
+.fifty[
+- **Spezifische Verwendung von Begriffen**:
+    + Diskriminierung von Kollokationen bzgl. syntaktischer Konstruktionsmuster
+    + `Kollokationen + Konstruktionsmuster = Wortprofil` <a href="https://pub.ids-mannheim.de/laufend/opal/pdf/opal2014-2.pdf#page=39">(Didakowski und Geyken 2014)</a>
+<img src="https://wrznr.github.io/CLARIN-Workshop-2018/figures/wp_vergleich.png" />
+]
+.fifty
+[
 - **Annäherung an Bedeutungswandel eines Begriffes**:
     + Ermittlung aller Kollokationen eines Eingabebegriffes **in definierten Zeitintervallen**
-    + Ordnung nach deren Assoziationsgrad zum Eingabebegriff
-    + `Verlaufskurven + Kollokationen = DiaCollo` [(Jurish 2015)](https://www.deutschestextarchiv.de/files/jurish2015diacollo-clarin.pdf)  
+    + `Kollokationen + Verlauskurven = DiaCollo` <a href="https://www.deutschestextarchiv.de/files/jurish2015diacollo-clarin.pdf">(Jurish 2015)</a>
+]
+]
 
 ---
 
