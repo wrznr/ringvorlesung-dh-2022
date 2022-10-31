@@ -869,13 +869,11 @@ count: false
     + `Kollokationen + Konstruktionsmuster = Wortprofil` <a href="https://pub.ids-mannheim.de/laufend/opal/pdf/opal2014-2.pdf#page=39">(Didakowski und Geyken 2014)</a>
 <img src="https://wrznr.github.io/CLARIN-Workshop-2018/figures/wp_vergleich.png" />
 ]
-.fifty
-[
+.fifty[
 - **Annäherung an Bedeutungswandel eines Begriffes**:
     + Ermittlung aller Kollokationen eines Eingabebegriffes **in definierten Zeitintervallen**
     + `Kollokationen + Verlauskurven = DiaCollo` <a href="https://www.deutschestextarchiv.de/files/jurish2015diacollo-clarin.pdf">(Jurish 2015)</a>
-]
-]
+]]
 
 ---
 
