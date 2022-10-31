@@ -867,7 +867,16 @@ count: false
 - **Spezifische Verwendung von Begriffen**:
     + Diskriminierung von Kollokationen bzgl. syntaktischer Konstruktionsmuster
     + `Kollokationen + Konstruktionsmuster = Wortprofil` <a href="https://pub.ids-mannheim.de/laufend/opal/pdf/opal2014-2.pdf#page=39">(Didakowski und Geyken 2014)</a>
+]
+.fifty[
 <img src="https://wrznr.github.io/CLARIN-Workshop-2018/figures/wp_vergleich.png" />
+]]
+
+---
+
+# Distributionelle Semantik
+.cols[
+.fifty[
 ]
 .fifty[
 - **Annäherung an Bedeutungswandel eines Begriffes**:
