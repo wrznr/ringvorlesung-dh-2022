@@ -846,9 +846,17 @@ count: false
 
 <center>
 <img src="https://famfonts.com/wp-content/uploads/jeopardy-wide.png">
-**↓**
-<img src="img/profilardy.png">
+</center>
 
+<center>
+**↓**
+</center>
+
+<center>
+<img src="img/profilardy.png">
+</center>
+
+<center>
 [**Klick mich!**](https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA)
 </center>
 
