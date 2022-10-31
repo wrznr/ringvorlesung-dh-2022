@@ -848,16 +848,14 @@ count: false
 <img src="https://famfonts.com/wp-content/uploads/jeopardy-wide.png">
 </center>
 
-<center>
-**↓**
-</center>
+.center[**↓**]
 
 <center>
 <img src="img/profilardy.png">
 </center>
 
 <center>
-[**Klick mich!**](https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA)
+<a href="https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwez"><b>Klick mich!</b></a>
 </center>
 
 ---
