@@ -988,7 +988,7 @@ count: false
 </center>
 
 <center>
-<a href="https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwez"><b>Klick mich!</b></a>
+<a href="https://docs.google.com/presentation/d/1qPfvBRmpPNAV6Y3zHGoYXAj-MuKy84E1ZJPvgMjwezA/edit?usp=sharing"><b>Klick mich!</b></a>
 </center>
 
 ---
