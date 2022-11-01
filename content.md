@@ -81,7 +81,7 @@ count: false
 ]
 .sixty[
 <p style="margin-top:-20px">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Gneis2.jpg" height="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Gneis2.jpg" height="400px" /><br />
 <a style="font-size:8pt" href="https://commons.wikimedia.org/wiki/File:Gneis2.jpg">Bild: Grabenstedt (CC-Attribution SA 3.0 Unported)</a>
 </p>
 ]
@@ -234,7 +234,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/170423-Einkaufszettel-01.jpg" height="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/170423-Einkaufszettel-01.jpg" height="300px" /><br />
 <a style="font-size:8pt" href="https://commons.wikimedia.org/wiki/File:170423-Einkaufszettel-01.jpg">Bild: BlueBreezeWiki (CC-BY-SA 3.0)</a>
 </center>
 
@@ -246,7 +246,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="300px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="300px" /><br />
 <a style="font-size:8pt" href="https://de.wikipedia.org/wiki/Datei:Teibert_Whitecaps_Interview.jpg">Bild: betancourt (CC-BY 2.0)</a>
 </center>
 
