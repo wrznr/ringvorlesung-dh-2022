@@ -1115,6 +1115,9 @@ count: false
 | Juan Garcés | FR Theologie, Philosophie | **Koordination DH**, digitale Edition, TEI | 
 | Kay-Michael Würzner | FR Informatik | Open Science, Textverarbeitung |
 
+
+.center[vorname.nachname@slub-dresden.de]
+
 ---
 
 class: part-slide
