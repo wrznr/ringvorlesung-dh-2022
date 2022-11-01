@@ -665,7 +665,7 @@ count: false
 ]
 .fifty[
 <center>
-<img src="img/hi.png" style="width:200px"/>
+<img src="img/hi.png" style="width:150px"/>
 </center>
 ]
 ]
