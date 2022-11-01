@@ -46,11 +46,9 @@ count: false
 # Überblick
 
 - vom Textobjekt zum maschinenlesbaren Volltext
-    + Optical Character Recognition
-    + Repräsentationen digitaler Texte
+    + am Beispiel Optical Character Recognition
 - vom maschinenlesbaren Volltext zum Forschungsdatum in der quantitativen Korpuslinguistik
-    + automatische Annotation
-    + quantitative Textanalyse
+    + mit Hilfe automatischer Annotation zur quantitative Textanalyse
 
 ---
 
@@ -860,6 +858,8 @@ count: false
 
 # Linguistische Annotation
 
+.cols[
+.fifty[
 - Verdichtung, e.g.
     + Flexion
     + Schreibungsvariation
@@ -868,6 +868,13 @@ count: false
     + Ambiguitäten, z.B. bzgl. Wortart
     + für höhere **qualitative Aussagekraft**
 - Hilfsmittel für **sauber(er)e Analysen**
+]
+.fifty[
+- auch auf anderen Ebenen (Phonologie, Syntax, formale Semantik)
+    + Grammatiken, Parser
+    + *Chomsky-Hierarchie* (u.a. [Chomsky 1959](https://www.sciencedirect.com/science/article/pii/S0019995859903626))
+]
+]
 
 .center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:300px"/>]
 
@@ -1017,9 +1024,34 @@ count: false
 
 # Empfehlung 1: Ausprobieren!
 
+- jede Menge gute Tutorials und Vorlesungen im Netz
+- Voraussetzungen
+    + Kommandozeile
+    + Python
+
 ---
 
 # Empfehlung 2: Kommen Sie ins Gespräch!
+
+- kleine Gruppe
+- gemeinsam Ausprobieren
+    + mehr Spaß
+    + weniger Frust
+- herzliche Einladung ins SLUB Open Science Lab (Zell21)
+
+<center><img src="https://www.slub-dresden.de/fileadmin/_processed_/b/a/csm_Zell21_71e9ec42ed.jpg" width="880" /></center>
+
+---
+
+# wichtige Ansprechpartner in der SLUB
+
+
+| AP | Funktion | Thema |
+|------|----------|--------|
+| Anita Santner | FR Anglistik | TextLab, wissenschaftliches Schreiben |
+| Henriette Mehn | FR Germanistik | Wissenschaftskommunikation, fachspezif. Recherche, XML |
+| Juan Garcés | FR Theologie, Philosophie | **Koordination DH**, digitale Edition, TEI | 
+| Kay-Michael Würzner | FR Informatik | Open Science, Textverarbeitung |
 
 ---
 
