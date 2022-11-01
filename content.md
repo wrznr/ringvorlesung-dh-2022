@@ -912,10 +912,10 @@ count: false
 - auch auf anderen Ebenen (Phonologie, Syntax, formale Semantik)
     + Grammatiken, Parser
     + *Chomsky-Hierarchie* (u.a. [Chomsky 1959](https://www.sciencedirect.com/science/article/pii/S0019995859903626))
+<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:300px"/>
 ]
 ]
 
-.center[<img src="https://deutschestextarchiv.github.io/DWDS-Workshop-2018/figures/kohl.svg" style="width:300px"/>]
 
 ---
 
