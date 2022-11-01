@@ -1089,7 +1089,7 @@ count: false
     + Python
     + LaTeX
 
-<center><img src="img/wissen.png" width="880" /></center>
+<center><img src="img/wissen.png" width="680" /></center>
 
 ---
 
