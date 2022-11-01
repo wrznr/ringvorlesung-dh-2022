@@ -651,14 +651,25 @@ count: false
       f(x[n]) = \begin{cases} 1 & \text{Pixel in Zelle $(x,n)$ schwarz} \\\\
       0 & \, \text{sonst}\end{cases}
       $$ 
-      ```
-      E l e k t r i k
-      0 0 0 1 1 0 0 0
-      ```
     + Training
-        * Zählen von Sequenzen aus Vektor-Buchstaben-Paaren
+        * Zählen von Sequenzen aus Vektor-Buchstabenteil-Paaren
         * Repräsentation als OCR-Modell
         * Tesseract: [tesstrain](https://github.com/tesseract-ocr/tesstrain)
+.cols[
+.fifty[
+```
+  0123456789
+0 1111111111
+2 0000110000 
+```
+]
+.fifty
+[
+<center>
+<img src="img/hi.png"/>
+</center>
+]
+]
 
 ---
 
