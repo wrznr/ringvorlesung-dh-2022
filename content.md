@@ -1000,6 +1000,7 @@ count: false
 - **Spezifische Verwendung von Begriffen**:
     + Diskriminierung von Kollokationen bzgl. syntaktischer Konstruktionsmuster
     + `Kollokationen + Konstruktionsmuster = Wortprofil` <a href="https://pub.ids-mannheim.de/laufend/opal/pdf/opal2014-2.pdf#page=39">(Didakowski und Geyken 2014)</a>
+    + z.B. *verkünden* vs. *bekanntgeben*
 ]
 .fifty[
 <img src="https://wrznr.github.io/CLARIN-Workshop-2018/figures/wp_vergleich.png" />
@@ -1039,6 +1040,25 @@ Vorgehensweise
 
 # Textbelege als Forschungsdaten
 
+Anwendungsbeispiel [(Jurish und Werneke 2017)](https://www.deutschestextarchiv.de/files/jw2017diacollo.pdf)
+
+- [*Krise* in DIE ZEIT](http://kaskade.dwds.de/dstar/zeit/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE)
+    * 1950–1959: Nachwirkungen Berlinblockade
+    * 1960–1969: Streiks und Proteste gegen die Regierung in Frankreich
+    * 1970–1979: Rücktritte Nixon und Brandt, Revolution im Iran
+    * 1980–1989: Solidarność, Afghanistankrieg, Schmidt-Koaltion
+    * 1990–1999: Jugoslawien- und Kosovokrieg, Finanzkrisen in Asien
+    * 2000–2010: globale Finanz- und Wirtschaftskrise
+    * 2010–2019: Bürgerkriege in Syrien und der Ukraine, Finanzkrise in Griechenland
+- *Krise* in Neues Deutschland [anhand Eigennamen](https://kaskade.dwds.de/dstar/zeit/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE) bzw. [Nomen](http://kaskade.dwds.de/dstar/nd/diacollo/?q=Krise&d=1950%3A%2A&sl=5&k=15&f=cld&gb=l%2Cp%3DNN)
+- *Mann* vs. *Frau* im Deutschen Textarchiv (1600–1900)
+
+---
+
+# Textbelege als Forschungsdaten
+
+> *„Unter dem Begriff des ‚blended reading‘ schlagen wir eine Strategie im Sinne einer Best Practise vor, die semiautomatische Analyseverfahren mit klassischer Textlektüre so integriert, dass sozialwissenschaftliche Erkenntnispotenziale, die sich auf die Auswertung großer Textdatenmengen stützen, optimal ausgeschöpft werden.“*<br />
+> [Stulpe und Lemke 2016](https://link.springer.com/chapter/10.1007/978-3-658-07224-7_2)
 
 ---
 
