@@ -211,7 +211,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="500px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="400px" />
 </center>
 
 ---
@@ -222,7 +222,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="img/times.svg" height="500px" />
+<img src="img/times.svg" height="400px" />
 </center>
 
 ---
@@ -233,7 +233,18 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="500px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/170423-Einkaufszettel-01.jpg" height="400px" />
+</center>
+
+---
+
+# Dokumenttypen
+
+- **Problem**: viele Dokumente nicht grundständig digital verfügbar
+- **Problem**: Digitalisierung ⇏ Texterfassung
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="400px" />
 </center>
 
 ---
@@ -437,25 +448,6 @@ count: false
     * **nichttextuelle** Elemente
         + Abbildungen
         + Tabellen etc.
-- Texterkennung
-]
-.fourty[
-<p style="margin-top:-80px">
-<img src="img/grenzboten_struct.svg" />
-</p>
-]
-]
-
----
-
-count: false
-
-# Komponenten eines einfachen OCR-Workflows
-
-.cols[
-.fifty[
-- Bildvorverarbeitung
-- Layoutanalyse
 - Texterkennung
 ]
 .fourty[
