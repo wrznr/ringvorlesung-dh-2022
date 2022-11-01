@@ -646,7 +646,7 @@ count: false
     + Daten
         * https://htr-united.github.io/
         * manuell transkribierte Textzeilen
-    + Kodierung `\(f: \\mathbb{N}^10\rightarrow\mathbb{B}\)` 
+    + Kodierung `\(f: \mathbb{N}^{10}\rightarrow\mathbb{B}\)` 
       $$
       f(x[n]) = \begin{cases} 1 & \text{Pixel in Zelle $(x,n)$ schwarz} \\\\
       0 & \, \text{sonst}\end{cases}
