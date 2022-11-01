@@ -81,7 +81,7 @@ count: false
 ]
 .sixty[
 <p style="margin-top:-20px">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Gneis2.jpg" height="500px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Gneis2.jpg" height="400px" />
 <a style="font-size:8pt" href="https://commons.wikimedia.org/wiki/File:Gneis2.jpg">Bild: Grabenstedt (CC-Attribution SA 3.0 Unported)</a>
 </p>
 ]
@@ -212,7 +212,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="300px" />
 </center>
 
 ---
@@ -223,7 +223,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="img/times.svg" height="400px" />
+<img src="img/times.svg" height="300px" />
 </center>
 
 ---
@@ -234,7 +234,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/170423-Einkaufszettel-01.jpg" height="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/170423-Einkaufszettel-01.jpg" height="300px" />
 <a style="font-size:8pt" href="https://commons.wikimedia.org/wiki/File:170423-Einkaufszettel-01.jpg">Bild: BlueBreezeWiki (CC-BY-SA 3.0)</a>
 </center>
 
@@ -246,7 +246,7 @@ count: false
 - **Problem**: Digitalisierung ⇏ Texterfassung
 
 <center>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="400px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="300px" />
 <a style="font-size:8pt" href="https://de.wikipedia.org/wiki/Datei:Teibert_Whitecaps_Interview.jpg">Bild: betancourt (CC-BY 2.0)</a>
 </center>
 
@@ -646,8 +646,15 @@ count: false
     + Daten
         * https://htr-united.github.io/
         * manuell transkribierte Textzeilen
-    + Kodierung
-        * ToDo
+    + Kodierung `\(f: \\mathbb{N}^10\rightarrow\mathbb{B}\)` 
+      $$
+      f(x[n]) = \begin{cases} 1 & \text{Pixel in Zelle $(x,n)$ schwarz} \\\\
+      0 & \, \text{sonst}\end{cases}
+      $$ 
+      ```
+      E l e k t r i k
+      0 0 0 1 1 0 0 0
+      ```
     + Training
         * Zählen von Sequenzen aus Vektor-Buchstaben-Paaren
         * Repräsentation als OCR-Modell
