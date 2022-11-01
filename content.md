@@ -1089,7 +1089,7 @@ count: false
     + Python
     + LaTeX
 
-<center><img src="img/wissen.png" width="680" /></center>
+<center><img src="img/wissen.png" width="480" /></center>
 
 ---
 
@@ -1101,7 +1101,7 @@ count: false
     + weniger Frust
 - herzliche Einladung ins SLUB Open Science Lab (Zell21)
 
-<center><img src="https://www.slub-dresden.de/fileadmin/_processed_/b/a/csm_Zell21_71e9ec42ed.jpg" width="680" /></center>
+<center><img src="https://www.slub-dresden.de/fileadmin/_processed_/b/a/csm_Zell21_71e9ec42ed.jpg" width="480" /></center>
 
 ---
 
