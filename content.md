@@ -1077,7 +1077,7 @@ count: false
 - linguistische Annotation
 - regelbasierte Modellierung
 - distributionelle Semantik
-- *close, distant und blended reading*
+- *close, distant* und *blended reading*
 
 ---
 
