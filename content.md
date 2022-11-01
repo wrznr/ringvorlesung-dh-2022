@@ -663,10 +663,9 @@ count: false
 2 0000110000 
 ```
 ]
-.fifty
-[
+.fifty[
 <center>
-<img src="img/hi.png"/>
+<img src="img/hi.png" style="width:200px"/>
 </center>
 ]
 ]
