@@ -1051,7 +1051,7 @@ Anwendungsbeispiel [(Jurish und Werneke 2017)](https://www.deutschestextarchiv.d
     * 2000–2010: globale Finanz- und Wirtschaftskrise
     * 2010–2019: Bürgerkriege in Syrien und der Ukraine, Finanzkrise in Griechenland
 - *Krise* in Neues Deutschland [anhand Eigennamen](https://kaskade.dwds.de/dstar/zeit/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE) bzw. [Nomen](http://kaskade.dwds.de/dstar/nd/diacollo/?q=Krise&d=1950%3A%2A&sl=5&k=15&f=cld&gb=l%2Cp%3DNN)
-- *Mann* vs. *Frau* im Deutschen Textarchiv (1600–1900)
+- [*Mann* vs. *Frau* im Deutschen Textarchiv (1600–1900)](http://kaskade.dwds.de/dstar/dta/diacollo/?q=Mann&bq=Frau&d=1600%3A1899&ds=25&gb=l%2Cp%3DADJA&f=html&p=d2)
 
 ---
 
