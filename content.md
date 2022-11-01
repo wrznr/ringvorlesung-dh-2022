@@ -207,7 +207,34 @@ count: false
 
 # Dokumenttypen
 
+- **Problem**: viele Dokumente nicht grundständig digital verfügbar
 - **Problem**: Digitalisierung ⇏ Texterfassung
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Codex_Manesse_127r.jpg" height="500px" />
+</center>
+
+---
+
+# Dokumenttypen
+
+- **Problem**: viele Dokumente nicht grundständig digital verfügbar
+- **Problem**: Digitalisierung ⇏ Texterfassung
+
+<center>
+<img src="img/times.svg" height="500px" />
+</center>
+
+---
+
+# Dokumenttypen
+
+- **Problem**: viele Dokumente nicht grundständig digital verfügbar
+- **Problem**: Digitalisierung ⇏ Texterfassung
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Teibert_Whitecaps_Interview.jpg" height="500px" />
+</center>
 
 ---
 
@@ -1025,9 +1052,12 @@ count: false
 # Empfehlung 1: Ausprobieren!
 
 - jede Menge gute Tutorials und Vorlesungen im Netz
-- Voraussetzungen
+- Was würde ich lernen?
     + Kommandozeile
     + Python
+    + LaTeX
+
+<center><img src="img/wissen.png" width="880" /></center>
 
 ---
 
