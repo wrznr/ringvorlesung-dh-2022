@@ -901,9 +901,10 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 # Exkurs: regelbasierte Modellierung
 
-- endlicher Automat: `\(\mathcal{A}={\Sigma,\Delta,Q,q_0,F,E}\)`
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
     + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
-    + `\(Q\ldots\)` Zustände
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\)\ldots` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
