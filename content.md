@@ -6,7 +6,7 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>1. November 2022</td>
+      <td>23. Januar 2022</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
@@ -25,10 +25,10 @@ layout: true
       <td style="text-align:left">Referat Open Science</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>1. November 2022</b></td>
+      <td style="font-size:8pt"><b>23. Januar 2023</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Ringvorlesung <i>Digital Humanities</i></td>
+      <td style="font-size:8pt">Vorlesung <i>Information Retrieval</i></td>
     </tr>
   </table>
 </div>
@@ -552,14 +552,13 @@ count: false
 # Exkurs: Sequenzklassifikation
 
 - zentrales Verfahren des maschinellen Lernens (cf. e.g. [Xing et al. 2010](https://www.cs.sfu.ca/~jpei/publications/Sequence%20Classification.pdf))
-    + **Konstrastiere** *statistische Inferenz* mit *deskriptiver Statistik*
 - basierend auf dem **Satz von Bayes**: `\(P(C|E) = \frac{P(E|C)\cdot P(C)}{P(E)}\)`
 - Rezept
     + Man nehme
         * eine **sehr große** Liste **manuell annotierter** Daten und
         * einen **Trainingsalgorithmus**,
     + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
-        * jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+        * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
     + induziere ein **statistisches Modell**,
     + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
 
@@ -669,6 +668,102 @@ count: false
 </center>
 ]
 ]
+
+---
+
+# Texterkennung: Werkzeuge
+
+- Software
+    + [**Tesseract**](https://github.com/tesseract-ocr/tesseract): komplettes Open-Source-Paket
+        * regelbasierte Bildvorverarbeitung und Layouterkennung
+        * datengetriebene Texterkennung (unterstützt > 100 Sprachen)
+        * Ease-of-Use-Training eigener Modelle
+        * für OCR und **HTR** verwendbar
+    + [**OCRopy**](https://github.com/ocropus/ocropy): umfangreiches Open-Source-Paket
+        * regelbasierte Bildvorverarbeitung und Layouterkennung
+        * datengetriebene Texterkennung (nur sehr wenige Modelle vorhanden)
+        * für OCR und **HTR** verwendbar
+        * prominente Ableger: [**kraken**](https://kraken.re) und [**Calamari**](https://github.com/Calamari-OCR/calamari)
+    + [**OCR-D**](https://ocr-d.de/): Workflow-Engine
+        * Orchestrierung verschiedener Open-Source-Pakete zu stabilen Workflows
+        * gleichzeitig DFG-Förderprogramm zur Verbesserung von OCR für historische Drucke
+        * SLUB als maßgebliche Entwicklungseinrichtung
+
+---
+
+# Texterkennung: Tesseract
+
+- mit großem Abstand: verbreitetste OCR-Software
+    + Einsatz in unzähligen Apps, Forschungsprojekten, privaten Kontexten
+- kostenlos verwendbar, quelloffen entwickelt
+<center><img src="img/tesseract_github.png" width="800px"/></center>
+- Lizenzmodell erlaubt kommerziellen Einsatz
+    + (Teil-)Grund für Erfolg?
+
+---
+
+# Texterkennung: Tesseract
+
+- Teil praktisch aller **Linux**distributionen
+    + Installation auf MacOS per `Homebrew` und `MacPorts` möglich
+    + Installation unter Windows per [Installer](https://github.com/UB-Mannheim/tesseract/wiki) möglich
+- Zugriff auf Tesseract per
+    + Programmierschnittstelle (API)
+    + **Kommandozeilenschnittstelle** (CLI)
+    + graphische Benutzeroberfläche (GUI, Drittanbieter)
+- Erkennunsgmodelle für zahlreiche Sprachen bzw. Schriften vorhanden
+    + teilweise als installierbare Pakete
+    + empfehlenswert jedoch Download von [GitHub](https://github.com/tesseract-ocr/tessdata_best)
+
+---
+
+# Texterkennung: Tesseract
+
+- Prinzipielle Kommandostruktur
+```
+tesseract EINGABEBILD AUSGABE (OPTIONEN) (AUSGABEKONFIGURATION)
+```
+- einfachster Aufruf
+```
+$ tesseract sample.png -
+```
+    + `-` schickt die Ergebnisse nach `stdout`
+    + Modell `eng` per default ausgewählt
+    + Konfiguration `txt` per default ausgewählt
+
+.cols[
+.sixty[
+```
+The Quick Brown
+Fox Jumps Over
+The Lazy Dog
+```
+]
+.fourty[
+<center>
+<img src="img/sample.png" width="300px" />
+<p style="font-size:4pt;">Image by Peter J. Acklam, public domain</p>
+</center>
+]
+]
+
+---
+
+# Texterkennung: Tesseract
+
+- Modellauswahl
+    + Option `-l MODELLNAME`, Datei `MODELLNAME.traineddata` nötig
+    + eventuell in Kombination mit `--tessdata-dir`
+    + Kombination mehrerer Modelle möglich:
+      `-l MODELLNAME+MODELLNAME2+MODELLNAME3`
+- Segmentierung
+    + Option `-psm MODUS` (Liste verfügbarer Optionen via `--help-psm`)
+    + Möglichkeit einzelne Absätze, Zeilen oder gar Wörter zu verarbeiten
+- Bildauflösung
+    + wichtiger Faktor für Ergebnisqualität
+    + idealerweise min. 300 dpi
+    + unter Umständen Teil der Metadaten, anonsten: `Warning: Invalid resolution 0 dpi. Using 70 instead.`
+    + manuell per `--dpi` setzbar
 
 ---
 
@@ -806,6 +901,9 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}={\Sigma,\Delta,Q,q_0,F,E}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
