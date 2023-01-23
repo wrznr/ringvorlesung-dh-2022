@@ -1039,6 +1039,21 @@ count: false
 
 # Linguistische Annotation: Werkzeuge
 
+- zwei wichtige Python-Bibliotheken
+    * `NLTK`: Sammlung vieler verschiedener Referenzimplementierungen **und** -Modellen
+        + begleited von (offenem) Lehrbuch: https://www.nltk.org/book/
+        + trainierbar
+    * `spaCy`: ein Tool pro Annotationsschritt auf Basis neuronaler Netze
+        + Modelle für viele Sprachen
+        + trainierbar
+```python
+import spacy
+nlp = spacy.load("en_core_web_sm")
+phrase = nlp("The old man the boat")
+for token in phrase
+    print(token.pos, token.lemma_)
+```
+
 ---
 
 # Distributionelle Semantik
