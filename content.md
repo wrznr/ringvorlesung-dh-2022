@@ -904,7 +904,7 @@ der (automatischen) *Analyse großer Textmengen* (**Distant Reading**):
 - endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
     + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
     + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
-    + `\(E\)\ldots` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -918,6 +918,10 @@ count: false
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -931,6 +935,10 @@ count: false
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -944,6 +952,10 @@ count: false
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -957,6 +969,10 @@ count: false
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -970,6 +986,10 @@ count: false
 
 # Exkurs: regelbasierte Modellierung
 
+- endlicher Automat: `\(\mathcal{A}=\{\Sigma,\Delta,Q,q_0,F,E\}\)`
+    + `\(\Sigma,\Delta\ldots\)` Ein- bzw. Ausgabealphabet
+    + `\(Q\ldots\)` Zustände, `\(F\subseteq Q\ldots\)` Endzustände, `\(q_0\in Q\ldots\)` Startzustand
+    + `\(E\ldots\)` Übergänge `\(\langle e_k, e_l, a, b\rangle\)`
 - Illustration `Finite State Morphology`
     + Lexikon `{schön<A>,Geist<N>}`
     + Vorsilben `{un<p>,ur<p>}`
@@ -1015,6 +1035,9 @@ count: false
 ]
 ]
 
+---
+
+# Linguistische Annotation: Werkzeuge
 
 ---
 
@@ -1201,21 +1224,6 @@ count: false
 - herzliche Einladung ins SLUB Open Science Lab (Zell21)
 
 <center><img src="https://www.slub-dresden.de/fileadmin/_processed_/b/a/csm_Zell21_71e9ec42ed.jpg" width="480" /></center>
-
----
-
-# wichtige Ansprechpartner in der SLUB
-
-
-| AP | Funktion | Thema |
-|------|----------|--------|
-| Anita Santner | FR Anglistik | TextLab, wissenschaftliches Schreiben |
-| Henriette Mehn | FR Germanistik | Wissenschaftskommunikation, fachspezif. Recherche, XML |
-| Juan Garcés | FR Theologie, Philosophie | **Koordination DH**, digitale Edition, TEI | 
-| Kay-Michael Würzner | FR Informatik | Open Science, Textverarbeitung |
-
-
-.center[vorname.nachname@slub-dresden.de]
 
 ---
 
