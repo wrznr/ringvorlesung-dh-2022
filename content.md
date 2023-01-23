@@ -1051,7 +1051,7 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 phrase = nlp("The old man the boat")
 for token in phrase
-    print(token.pos, token.lemma_)
+  print(token.pos, token.lemma_)
 ```
 
 ---
