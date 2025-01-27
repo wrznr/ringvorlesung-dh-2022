@@ -557,8 +557,10 @@ count: false
     + Man nehme
         * eine **sehr große** Liste **manuell annotierter** Daten und
         * einen **Trainingsalgorithmus**,
-    + modelliere eine **`n:n`-Beziehung** zwischen Eingabe und Ausgabe,
-        * e.g., jedes Eingabeelement (Buchstabe) wird auf eine Klasse abgebildet
+    + modelliere eine **`m:n`-Beziehung** zwischen Eingabe und Ausgabe,
+        * e.g., jeder Buchstabe wird auf eine Klasse abgebildet
+        * e.g., jeder Pixelstreifen wird auf einen Buchstaben abgebildet
+        * e.g., jedes Wort wird auf eine Wortklasse abgebildet
     + induziere ein **statistisches Modell**,
     + und evaluiere dessen Qualität anhand von **Evaluationsdaten**
 
@@ -764,6 +766,28 @@ The Lazy Dog
     + idealerweise min. 300 dpi
     + unter Umständen Teil der Metadaten, anonsten: `Warning: Invalid resolution 0 dpi. Using 70 instead.`
     + manuell per `--dpi` setzbar
+
+---
+
+# Exkurs: LLMs
+
+.cols[
+.sixty[
+- OCR mit LLMs gut und gleichzeitig fehleranfällig
+    + eingeschränkte Trainingsmöglichkeiten
+    + end-to-end vs. modular einsetzbare Werkzeuge
+- OCR-Nachkorrektur mit LLMs sehr vielversprechend
+    + Text-zu-Text als „Basisklassifikation“
+    + datensparsame Überarbeitung existierender Volltexte
+    + diverse Textspezialisierungen mgl.
+]
+.fourty[
+<center>
+<img src="img/korrektur.png" width="300px" />
+<p style="font-size:4pt;">Image by [Wannapik](https://www.wannapik.com/vectors/25379), CC-BY-NC 4.0</p>
+</center>
+]
+]
 
 ---
 
@@ -1179,7 +1203,7 @@ Vorgehensweise
 
 Anwendungsbeispiel [(Jurish und Werneke 2017)](https://www.deutschestextarchiv.de/files/jw2017diacollo.pdf)
 
-- [*Krise* in DIE ZEIT](http://kaskade.dwds.de/dstar/zeit/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE)
+- [*Krise* in Bundestagsdrucksachen](http://ddc.dwds.de/dstar/bundestag/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE)
     * 1950–1959: Nachwirkungen Berlinblockade
     * 1960–1969: Streiks und Proteste gegen die Regierung in Frankreich
     * 1970–1979: Rücktritte Nixon und Brandt, Revolution im Iran
@@ -1187,7 +1211,6 @@ Anwendungsbeispiel [(Jurish und Werneke 2017)](https://www.deutschestextarchiv.d
     * 1990–1999: Jugoslawien- und Kosovokrieg, Finanzkrisen in Asien
     * 2000–2010: globale Finanz- und Wirtschaftskrise
     * 2010–2019: Bürgerkriege in Syrien und der Ukraine, Finanzkrise in Griechenland
-- *Krise* in Neues Deutschland [anhand Eigennamen](https://kaskade.dwds.de/dstar/zeit/diacollo/?q=Krise&d=1950%3A%2A&gb=l%2Cp%3DNE) bzw. [Nomen](http://kaskade.dwds.de/dstar/nd/diacollo/?q=Krise&d=1950%3A%2A&sl=5&k=15&f=cld&gb=l%2Cp%3DNN)
 - [*Mann* vs. *Frau* im Deutschen Textarchiv (1600–1900)](http://kaskade.dwds.de/dstar/dta/diacollo/?q=Mann&bq=Frau&d=1600%3A1899&ds=25&gb=l%2Cp%3DADJA&f=html&p=d2)
 
 ---
