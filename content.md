@@ -776,7 +776,7 @@ The Lazy Dog
 - OCR mit LLMs gut und gleichzeitig fehleranfällig
     + eingeschränkte Trainingsmöglichkeiten
     + end-to-end vs. modular einsetzbare Werkzeuge
-- OCR-Nachkorrektur mit LLMs sehr vielversprechend
+- [OCR-Nachkorrektur mit LLMs](https://docs.google.com/presentation/d/1rOWYKXlxr8QPZA43dn5lvJXgrtWOgL4tLRkwf3VI3NA/edit?usp=sharing) sehr vielversprechend
     + Text-zu-Text als „Basisklassifikation“
     + datensparsame Überarbeitung existierender Volltexte
     + diverse Textspezialisierungen mgl.
