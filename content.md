@@ -6,11 +6,11 @@ layout: true
   <table>
     <tr>
       <td style="text-align:right">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek</td>
-      <td>23. Januar 2022</td>
+      <td>27. Januar 2025</td>
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat Open Science</td>
+      <td style="text-align:right">Referat Forschungsnahe Services</td>
       <td />
     </tr>
   </table>
@@ -25,7 +25,7 @@ layout: true
       <td style="text-align:left">Referat Open Science</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>23. Januar 2023</b></td>
+      <td style="font-size:8pt"><b>27. Januar 2025</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">Vorlesung <i>Information Retrieval</i></td>
