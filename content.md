@@ -22,7 +22,7 @@ layout: true
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat Open Science</td>
+      <td style="text-align:left">Referat Forschungsnahe Services</td>
     </tr>
     <tr>
       <td style="font-size:8pt"><b>27. Januar 2025</b></td>
